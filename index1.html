@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.67">
+    <title>PRONATEC</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        header{
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            padding: 0 20px;
+            border-bottom: 5px solid yellow;
+            justify-content: center;
+            background-color: rgb(247, 247, 247);
+            position: fixed;
+        }
+
+        footer{
+            height: 150px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            border-top: 5px solid white;
+            justify-content: center;
+            background-color: rgb(0, 162, 255);
+        }
+
+        #protagonista{
+            height: 150px;
+            width: auto;
+            margin-right: 20px;
+            position: absolute;
+            left: 20px;
+        }
+
+        h2{
+            font-size: 35px;
+            margin: 0;
+        }
+
+        body{
+            font-family: cursive;
+            background-color: rgb(245, 245, 168);
+            padding-top: 100px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        #logo{
+            height: 50px;
+            width: auto;
+            margin-right: 20px;
+            position: absolute;
+            left: 20px;
+
+        }
+
+        #menu{
+            width: 100px;
+            height: 100px;
+        }
+
+        #protagonistas{
+            display: block;
+            width: 1600px;
+            height: auto;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+
+        #linguagens{
+            display: flex;
+            width: 1875px;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            gap: 40px;
+            margin: auto;
+        }
+
+        #icones{
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+        }
+
+        #main{
+            width: 1600px;
+            height: 800px;
+            margin-top: 50px;
+            margin: auto;
+            align-items: center;
+            display: flex;
+        }
+
+        #main1{
+            width: 937px;
+            height: 750px;
+            padding-left: 40px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: rgb(243, 243, 106);
+            border-radius: 5px;
+        }
+
+        #triofoda{
+            height: 700px;
+            width: auto;
+            margin: auto;
+        }
+
+        #alunos{
+            width: 1600px;
+            height: 800px;
+            margin-top: 50px;
+            margin: auto;
+            align-items: center;
+            display: flex;
+        }
+
+        #alunos1{
+            width: 937px;
+            height: 750px;
+            padding-right: 40px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: auto;
+            text-align: center;
+            background-color: rgb(243, 243, 106);
+            border-radius: 5px;
+        }
+
+        #text{
+            font-size: 25px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        h3{
+            font-size: 25px;
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+    <header>
+        <a href="http://127.0.0.1:5500/Aula%205/PaginaCurso/index1.html"><img src="imagens/logoPronatec3.png" alt="Pronatec" id="logo"></a>
+        <h2>Curso Técnico de Desenvolvimento de Sistemas</h2>
+    </header>
+</head>
+<body>
+    <img src="imagens/GUSTAVOGRANDIOSO.jpg" alt="Alunos" id="protagonistas">
+
+    <div id="linguagens">
+        <a href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank">
+            <img src="imagens/js.png" alt="JavaScript" id="icones">
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Java" target="_blank">
+            <img src="imagens/java.webp" alt="Java" id="icones">
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">
+            <img src="imagens/css-3.svg" alt="CSS" id="icones">
+        </a>
+    </div>
+    <img src="imagens/comendo.jpeg" alt="Comendo" style="display: block; margin: 0 auto;">
+    <div id="main">
+        <div id="main1">
+            <h1 style="font-size: 30px;">
+            <a href="http://127.0.0.1:5500/Aula%205/PaginaCurso/cursos.html">Disciplinas</a>:
+        </h1>
+        <h1 id="subtt">
+            1° Semestre
+        </h1>
+        <p>
+            Sistemas de Informação - Luiz Aldo <br>Introdução a Programação - Luiz Aldo <br>Inglês Aplicado - Jessica <br>Introdução a Banco de Dados - Jorge <br>Infraestrutura Computacional - Luiz Aldo
+        </p>
+        <h1 id="subtt">
+            2° Semestre
+        </h1>
+        <p>
+            Relações Humanas - Raiane <br>Programação Orientada a Objetos (POO) - Lucas <br>Linguagem SQL - Jorge <br>Modelagem de Sistemas/UML - Jorge <br>Desenvolvimento WEB I - Lucas
+        </p>
+        <h1 id="subtt">
+            3° Semestre
+        </h1>
+        <p>
+            Metodologias Ágeis - Jorge <br>Computação em Nuvem e Web Services - Lucas <br>Qualidade e Teste de Software - Jorge <br>Prototipagem UI/UX Design - Lucas <br>Desenvolvimento WEB II - Lucas <br>Empreendedorismo, Criatividade e Inovação - Roseli
+        </p>
+        </div>
+        <img src="imagens/trio.jpg" alt="Trio Foda" id="triofoda">
+    </div>
+    <div id="alunos">
+        <img src="imagens/te observando.jpg" alt="Marcos Observando" id="triofoda">
+        <div id="alunos1">
+            <h1 style="font-size: 30px">
+            Alunos que seguem no curso
+            </h1>   
+            <p id="text">
+                Henrique <br>Matheus Padilha <br>Matheus Campos <br>Marcos <br>Gustavo <br>Sarah <br>Emanoely <br>Arthur <br>Adryan <br>Isabelly <br>Nicoli <br>Maria <br>Gabi <br>Thayla <br>Ana <br>Paulo <br>Luz <br>João <br>Marco
+            </p>
+        </div>
+    </div>
+    <footer>
+         <img src="imagens/PROTAGONISTAS.jpeg" alt="Henrique e Mateus Protagonistas" id="protagonista"> 
+         <h3>Fone: (49)2049 7796 | cedupchapeco@sdr.sc.gov.br <br>R. Assis Brasil, 119 - Maria Goretti <br>Chapecó - SC, 89801-355</h3>
+    </footer>
+</body>
+</html>
